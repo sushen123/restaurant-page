@@ -1,0 +1,169 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.home{
+    background-color: red;
+    border-radius: 20px;
+    border: 1px solid red;
+
+}
+
+.home:hover {
+    background-color: rgb(198, 113, 113);
+}
+
+.home:active {
+    background-color: aquamarine;
+    border-color: aquamarine;
+    
+}
+
+
+.about{
+    background-color: red;
+    border-radius: 20px;
+    border: 1px solid red;
+
+}
+
+.about:hover {
+    background-color: rgb(198, 113, 113);
+}
+
+.about:active {
+    background-color: aquamarine;
+    border-color: aquamarine;
+    
+}
+
+
+.menu{
+    background-color: red;
+    border-radius: 20px;
+    border: 1px solid red;
+
+}
+
+.menu:hover {
+    background-color: rgb(198, 113, 113);
+}
+
+.menu:active {
+    background-color: aquamarine;
+    border-color: aquamarine;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    padding: 10px 0px;
+
+}
+
+.divBtn {
+   margin: 10px;
+   display: flex;
+   justify-content: space-around; 
+   width: 30vw;
+}
+
+.logo {
+    padding-left: 5vw;
+    display: flex;
+    font-weight: bold;
+}
+
+.logopng {
+    height: 10vh;
+    width: 10vw;
+}
+
+.logo-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+#content {
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 35vw;
+    height: 35vh;
+}
+
+.profile-div .text-div h2{
+    margin-top: 0px;
+    align-self: center;
+    align-content: center;
+    color: rgb(138, 157, 188);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+
+.profile-div {
+    display: flex;
+    align-self: center;
+}
+
+.text-div {
+    align-self: center;
+    display: flex;
+    text-align: center;
+    border: 1px solid aqua;
+    margin-left: 10vw;
+    height: 35vh;
+    background-color: aqua;
+    border-radius: 30px;
+    opacity: 0.7;
+    margin-right: 10vw;
+
+}
+
+.menu-div {
+    align-self: center;
+    text-align: center;
+    
+}
+
+.menu-head {
+
+font-size: 200%;
+color: blueviolet;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.menu-items {
+    text-align: center;
+   
+}
+
+.menu-items ol{
+    list-style: none;
+    font-weight: bold;
+    font-size: 200%;
+    color: rgb(164, 200, 110);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about-sec {
+    margin-left: 4vw;
+} 
+.about-sec h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(171, 158, 81);
+}
+
+.about-sec p {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(231, 173, 102);
+}
